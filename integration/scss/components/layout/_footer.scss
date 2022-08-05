@@ -1,0 +1,16 @@
+.Main__Footer{
+    margin: 5px;
+    color:var($green-pdv);
+    background-color: var($marron-pdv);
+    text-align: center;
+    
+  .Footer__Nav {
+    display: flex;
+    justify-content: space-around;
+  
+  &__Items{
+    font-size: 12px;
+    font-weight: bold;
+    }
+  
+} }
