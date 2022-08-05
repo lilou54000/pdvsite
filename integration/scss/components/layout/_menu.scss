@@ -1,0 +1,21 @@
+.Main__Nav{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ margin: 10px 15px 20px;
+background-color: var($blue-sky-pdv);
+color: var($marron-pdv);
+list-style: none;
+
+ &__Items{
+    font-size: 18px;
+    margin-top: 10px;
+
+
+    &__Year{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+ }
+
+}

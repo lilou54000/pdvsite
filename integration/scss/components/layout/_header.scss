@@ -2,8 +2,10 @@
     margin: 5px;
     color:var($blue-sea-pdv);
     background-color: var($yellow-pdv);
-    
+    display: flex;
+    justify-content: flex-start;
     &__Title{
+        margin: auto;
 font-size: 45px;
     font-weight: 700;
     }

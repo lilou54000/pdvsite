@@ -1,0 +1,19 @@
+.Form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 90%;
+margin: auto;
+
+background-color: var($blue-sky-pdv, 0.5);
+
+    &__Inputs{
+
+border: solid 2px var($blue-sea-pdv);
+width: 90%;
+height: 30px;
+font-size: 18px;
+color: var($color-text-pdv);
+    }
+}
